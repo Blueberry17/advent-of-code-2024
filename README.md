@@ -10,3 +10,4 @@ python3 src/day01/p1.py
 ```
 
 # Lessons
+1. Maybe day 1 will stay relaxed after all!
