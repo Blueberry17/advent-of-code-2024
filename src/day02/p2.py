@@ -12,18 +12,14 @@ def calculate_diffs(nums):
 
 
 def diff_type(diffs):
-    pos_diffs = neg_diffs = non_diffs = big_diffs = 0
+    pos_diffs = neg_diffs = 0
     for diff in diffs:
         if 1 <= diff <= 3:
             pos_diffs += 1
         elif -3 <= diff <= -1:
             neg_diffs += 1
-        elif diff == 0:
-            non_diffs += 1
-        else:
-            big_diffs += 1
 
-    return pos_diffs, neg_diffs, non_diffs, big_diffs
+    return pos_diffs, neg_diffs
 
 
 for level in levels:
@@ -38,7 +34,7 @@ for level in levels:
         new_nums.pop(index)
 
         diffs = calculate_diffs(new_nums)
-        pos_diffs, neg_diffs, non_diffs, big_diffs = diff_type(diffs)
+        pos_diffs, neg_diffs = diff_type(diffs)
 
         if pos_diffs == len(diffs) or neg_diffs == len(diffs):
             total += 1
