@@ -11,3 +11,4 @@ python3 src/day01/p1.py
 
 # Lessons
 1. Maybe day 1 will stay relaxed after all!
+2. It's still too soon to relive 2015 day 19...
