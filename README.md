@@ -14,3 +14,4 @@ python3 src/day01/p1.py
 2. It's still too soon to relive 2015 day 19...
 3. Regexes can be so elegant at times.
 4. When iterating over different lines in a grid, use vectors to make it general.
+5. Look out for ways to change the iterable without breaking the loop.
