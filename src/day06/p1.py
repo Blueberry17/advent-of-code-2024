@@ -17,7 +17,6 @@ dirs = itertools.cycle([(0, -1), (1, 0), (0, 1), (-1, 0)])
 
 dx, dy = next(dirs)
 total = 1
-coords = []
 try:
     while True:
         sx += dx
@@ -29,9 +28,6 @@ try:
             dx, dy = next(dirs)
         if sy+dy < 0 or sx+dx < 0:
             raise IndexError
-        else:
-            coords.append((sx, sy))
 
 except IndexError:
     print(total)
-    print(coords)

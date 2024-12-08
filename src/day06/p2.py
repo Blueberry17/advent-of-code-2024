@@ -58,5 +58,6 @@ for y, line in enumerate(grid):
                     dx, dy = next(dirs)
 
         except IndexError as e:
-            # print(cycles, y*len(line)+(x+1), len(grid)*len(grid[0]))
             pass
+
+print(cycles)
