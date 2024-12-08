@@ -2,6 +2,7 @@
 Solutions to the [Advent of Code 2024](https://adventofcode.com/2024) in Python, written by Anthony Berry.
 
 Each part for each day is stored in a separate file.
+Solutions are uploaded in a very similar state to how they originally were, when first obtaining the correct answer.
 
 # Running
 To run the code for a specific day and part with this as the root directory, use the following format.
