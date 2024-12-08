@@ -17,3 +17,4 @@ python3 src/day01/p1.py
 5. Look out for ways to change the iterable without breaking the loop.
 6. Always, always, always test end of line bugs.
 7. Just begin with the better algorithm, rather than duplicating effort for part 2.
+8. Use imaginary numbers instead of tuples.
