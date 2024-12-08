@@ -22,4 +22,4 @@ for line in lines:
     if matched:
         match += total
 
-print("TOTAL", match)
+print(match)
