@@ -40,15 +40,9 @@ for y, line in enumerate(grid):
                 sx += dx
                 sy += dy
 
-                # if y*len(line)+(x+1) > 17:
-                #     for row in new_grid:
-                #         print(row)
-                #     print()
-                #     input()
-
                 if (sx, sy) in seen:
                     seen[(sx, sy)] += 1
-                    if seen[(sx, sy)] > 4 and total > 13000:
+                    if seen[(sx, sy)] > 4:
                         cycles += 1
                         raise IndexError
                 else:
@@ -64,5 +58,5 @@ for y, line in enumerate(grid):
                     dx, dy = next(dirs)
 
         except IndexError as e:
-            print(cycles, y*len(line)+(x+1), len(grid)*len(grid[0]))
+            # print(cycles, y*len(line)+(x+1), len(grid)*len(grid[0]))
             pass
