@@ -20,3 +20,4 @@ python3 src/day01/p1.py
 7. Just begin with the better algorithm, rather than duplicating effort for part 2.
 8. Use imaginary numbers instead of tuples.
 9. Pointers can be integral.
+10. Once recursion starts working, it's so good.
