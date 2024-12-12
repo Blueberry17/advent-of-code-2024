@@ -22,3 +22,4 @@ python3 src/day01/p1.py
 9. Pointers can be integral.
 10. Once recursion starts working, it's so good.
 11. Functools.cache() for memoization!
+12. Number of corners = number of sides for polygons.
