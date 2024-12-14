@@ -23,4 +23,5 @@ python3 src/day01/p1.py
 10. Once recursion starts working, it's so good.
 11. Functools.cache() for memoization!
 12. Number of corners = number of sides for polygons.
-13. Math is always the most efficient
+13. Math is always the most efficient.
+14. Complexity is king.
