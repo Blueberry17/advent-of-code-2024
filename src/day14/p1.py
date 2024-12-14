@@ -27,5 +27,4 @@ for (x, y) in final:
         elif y > y_lim/2:
             d += 1
 
-print(a, b, c, d)
 print(a*b*c*d)
