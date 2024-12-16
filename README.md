@@ -26,3 +26,4 @@ python3 src/day01/p1.py
 13. Math is always the most efficient.
 14. Complexity is king.
 15. Rather than checking every case, try to break your program.
+16. Thank you 2023 day 17!
