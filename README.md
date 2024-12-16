@@ -25,3 +25,4 @@ python3 src/day01/p1.py
 12. Number of corners = number of sides for polygons.
 13. Math is always the most efficient.
 14. Complexity is king.
+15. Rather than checking every case, try to break your program.
