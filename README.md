@@ -27,3 +27,4 @@ python3 src/day01/p1.py
 14. Complexity is king.
 15. Rather than checking every case, try to break your program.
 16. Thank you 2023 day 17!
+17. I need to learn how to reverse hashing functions...
